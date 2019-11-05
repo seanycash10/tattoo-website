@@ -1,0 +1,95 @@
+
+#head_menu_div{
+    background-color: #000000;
+    font-weight: 900;
+    font-size: 19px;
+    font-family: "Open Sans Condensed";
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    height: 45px;
+}
+
+#head_menu_div > ul > li > a {
+    color: #F4F4F4;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: .1em;
+    margin-top: 10px;
+}
+
+a.button {
+    background-color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    float:right;
+    text-decoration: none;
+}
+
+#head_menu_div > ul > li {
+    display: inline;
+}
+
+#head_menu_div > ul > li > form{
+    color: #ffffff;
+    display: inline;
+    float: right;
+    font-size: 10px;
+    font-family: "Open Sans Condensed";
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 10px 2px;
+}
+
+#header_menu {
+    margin: 0;
+    margin-left: 43px;
+}
+
+div.bad_message{
+    color: red;
+}
+
+li a: active{
+    color:#f4f4f4;
+}
+
+#main_image {
+	height: 40%;
+	width: 100%;
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	object-fit:cover;
+
+}
+
+#bio_image{
+    height: 10%;
+    width: 20%;
+    object-fit: cover;
+}
+
+p.bio_text{
+    border: solid;
+}
+#bio_div{
+    position: absolute;
+    top: 53%;
+}
+
+div.signin_div{
+    position: center;
+    border: solid;
+}
+div.singin_div{
+    font-weight: 900;
+}
+div.signin_div > form > input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+div.signin_div > form{
+    margin-left: 30%;
+    margin-top: 30px;
+}
