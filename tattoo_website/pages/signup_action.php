@@ -19,7 +19,7 @@ if(preg_match("/\w*@.*\.[a-z]{2,4}/", $username) && $dao->validate_username($use
 }
 
 
-if(strlen($password) >= 8 && $password != $second_password){
+if(strlen($password) >= 8 && $password == $second_password){
 	$check_password = true;
 }
 
@@ -32,7 +32,7 @@ if($check_password && $check_username){
 }
 else{
 	if(!$check_passord){
-		$_SESSION['message'] = "Invalid password";
+		$_SESSION['message'] = "Invalid password. Password must be longer than 8 characters";
 	}
 	if(!$check_username){
 		$_SESSION['message'] = "Invalid username";
